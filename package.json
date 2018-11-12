@@ -21,7 +21,8 @@
     "lint": "eslint .",
     "test": "jest --config ./.jestrc.json",
     "test:watch": "npm run test -- --watch",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "postinstall": "npm run build:commonjs"
   },
   "dependencies": {
     "immutable": "^3.8.1",
@@ -75,8 +76,5 @@
   },
   "bugs": {
     "url": "https://github.com/supasate/connected-react-router/issues"
-  },
-  "scripts": {
-    "postinstall": "npm run build:commonjs"
   }
 }
