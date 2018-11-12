@@ -21,7 +21,6 @@
     "lint": "eslint .",
     "test": "jest --config ./.jestrc.json",
     "test:watch": "npm run test -- --watch",
-    // "postinstall": "npm run build:commonjs",
     "posttest": "npm run lint"
   },
   "dependencies": {
