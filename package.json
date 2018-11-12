@@ -21,8 +21,8 @@
     "lint": "eslint .",
     "test": "jest --config ./.jestrc.json",
     "test:watch": "npm run test -- --watch",
-    "posttest": "npm run lint",
-    "postinstall": "npm run build:commonjs"
+    // "postinstall": "npm run build:commonjs",
+    "posttest": "npm run lint"
   },
   "dependencies": {
     "immutable": "^3.8.1",
