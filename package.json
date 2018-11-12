@@ -75,5 +75,8 @@
   },
   "bugs": {
     "url": "https://github.com/supasate/connected-react-router/issues"
+  },
+  "scripts": {
+    "postinstall": "npm run build:commonjs"
   }
 }
